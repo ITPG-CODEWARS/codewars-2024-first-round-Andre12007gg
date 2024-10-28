@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    display: flex; /* Используем flexbox для выравнивания содержимого */
+    align-items: center; /* Вертикальное выравнивание */
+    background-color: #c00;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex; /* Используем flexbox для логотипа и заголовка */
+    align-items: center; /* Вертикальное выравнивание */
+}
+
+.logo {
+    width: 50px; /* Установите нужную ширину логотипа */
+    height: auto; /* Сохраняет пропорции */
+    margin-right: 10px; /* Отступ справа от логотипа */
+}
+
+nav {
+    margin-left: auto; /* Сдвигает навигацию вправо */
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center; /* Центрирует текст */
+}
+
+.hero-image img {
+    width: 100%; /* Изображение будет занимать всю ширину контейнера */
+    height: auto; /* Сохраняет пропорции */
+}
+
+.hero-text {
+    position: absolute; /* Позволяет позиционировать текст поверх изображения */
+    top: 70%; /* Центрирует текст по вертикали */
+    left: 50%; /* Центрирует текст по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвигает текст для центрирования */
+    color: white; /* Цвет текста */
+    font-size: 60px; /* Размер шрифта */
+    font-family:BRUSH SCRIPT MT
+}
+.new-trains {
+    margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.train-container {
+    display: flex; /* Используем flexbox для горизонтального расположения */
+    justify-content: space-around; /* Размещаем элементы равномерно */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку, если не хватает места */
+}
+
+.train {
+    flex: 1; /* Элементы будут занимать равное пространство */
+    margin: 10px; /* Отступы между элементами */
+    max-width: 300px; /* Максимальная ширина для каждого элемента */
+    text-align: center; /* Центрируем текст */
+
+}
+
+.train img {
+    width: 100%; /* Изображение занимает всю ширину блока */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 5px; /* Скругление углов изображения */
+
+}
+
+    
+    
+
+.new-trains, .train-list, .technology-list, .railway-list, .history-content, .economics-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+.train, .train-item, .technology-item, .railway-item {
+    margin: 10px 0;
+}
+
+.more-info-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more-info-btn:hover {
+    background-color: #a00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c00;
+    color: #fff;
+}
